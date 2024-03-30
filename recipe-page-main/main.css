@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif:wght@400");
+
+/*DESKTOP DESIGN*/
+/*GLOBAL STYLES START*/
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2.5em;
+  font-family: "Young Serif", serif;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+li {
+  font-family: "Outfit", sans-serif;
+}
+tr {
+  font-family: "Outfit", sans-serif;
+}
+p {
+  font-family: "Outfit", sans-serif;
+}
+/*GLOBAL STYLES END*/
+
+/*container styles*/
+.container {
+  background-color: white;
+  border-radius: 2em;
+  box-sizing: border-box;
+  margin: 5% 25%;
+  padding: 3%;
+  overflow: hidden;
+}
+/*container styles*/
+
+/*pink container styles*/
+.pinkcont {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 2em;
+  padding: 2%;
+}
+.pinkcont h3 {
+  color: hsl(332, 51%, 32%);
+}
+/*pink container styles*/
+
+/*image styles*/
+.imagejpg {
+  border-radius: 2em;
+  width: 38.5em;
+  height: 20em;
+}
+/*image styles*/
+.ingredients {
+  border-bottom: 1px solid rgba(139, 69, 19, 0.2);
+}
+.instructions {
+  border-bottom: 1px solid rgba(139, 69, 19, 0.2);
+}
+/*table styles*/
+.tableau {
+  border-collapse: separate;
+  width: 100%;
+}
+.tableau td {
+  border-bottom: 1px solid rgba(139, 69, 19, 0.2);
+  padding-bottom: 5px;
+}
+.units {
+  color: hsl(332, 51%, 32%);
+  padding-left: 13em;
+  font-weight: bold;
+}
+.energy {
+  padding-left: 2em;
+}
+
+/*table styles*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(30, 63%, 30%);
+}
+/*DESKTOP DESIGN*/
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    margin: 5% 5%;
+    padding: 2%;
+  }
+
+  .imagejpg {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .pinkcont {
+    padding: 1%;
+  }
+
+  .units {
+    padding-left: 0;
+  }
+  .energy {
+    padding-left: 0;
+  }
+}
