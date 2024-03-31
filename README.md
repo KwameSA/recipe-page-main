@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: ([https://your-solution-url.com](https://github.com/KwameSA/recipe-page-main))
 - Live Site URL: ([https://your-live-site-url.com](https://kwamesa.github.io/recipe-page-main/))
 
 ## My process
